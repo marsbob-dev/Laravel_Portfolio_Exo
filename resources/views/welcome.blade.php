@@ -1,0 +1,10 @@
+@extends('template/main')
+@section('content')
+    @include('homepage/partials/home/home')
+    @include('homepage/partials/about/about')
+    @include('homepage/partials/about/facts')
+    @include('homepage/partials/about/skills')
+    @include('homepage/partials/resume/resume')
+    @include('homepage/partials/portfolio/portfolio')
+    @include('homepage/partials/contact/contact')
+@endsection
