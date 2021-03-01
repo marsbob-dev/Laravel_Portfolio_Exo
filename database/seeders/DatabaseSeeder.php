@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-
+use App\Models\Resume;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -20,6 +20,19 @@ class DatabaseSeeder extends Seeder
                 InfoNavSeeder::class,
                 LinkNavSeeder::class,
                 SocialNavSeeder::class,
+                AboutSeeder::class,
+                AboutListSeeder::class,
+                FactsSeeder::class,
+                FactsListSeeder::class,
+                SkillsSeeder::class,
+                SkillsListSeeder::class,
+                ResumeSeeder::class,
+                ResumeEducationSeeder::class,
+                ResumeProSeeder::class,
+                ResumeSummarySeeder::class,
+                PortfolioSeeder::class,
+                ContactSeeder::class,
+                ContactListSeeder::class,
             ]
         );
     }

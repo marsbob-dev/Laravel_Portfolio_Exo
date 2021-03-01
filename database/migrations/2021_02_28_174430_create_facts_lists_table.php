@@ -16,6 +16,7 @@ class CreateFactsListsTable extends Migration
         Schema::create('facts_lists', function (Blueprint $table) {
             $table->id();
             $table->string('logo');
+            $table->integer('number')->nullable();
             $table->string('title');
             $table->string('content');
             $table->timestamps();
