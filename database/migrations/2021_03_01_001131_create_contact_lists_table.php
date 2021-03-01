@@ -15,6 +15,10 @@ class CreateContactListsTable extends Migration
     {
         Schema::create('contact_lists', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->text('content');
+            $table->string('class');
+            $table->string('icon');
             $table->timestamps();
         });
     }

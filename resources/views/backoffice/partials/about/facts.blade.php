@@ -24,4 +24,7 @@
           </div>
   
         </div>
+        <div class="d-flex justify-content-center">
+          <a href="{{}}" class="my-5 btn btn-warning">Edit</a>
+        </div>
       </section><!-- End Facts Section -->

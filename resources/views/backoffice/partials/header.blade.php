@@ -23,10 +23,14 @@
             <li><a href="{{$item->href}}"><i class="{{$item->icon}}"></i>{{$item->link}}</a></li>
            @endforeach
            <hr class="my-5">
+          
+           <li><a href="{{route('welcome')}}" class="btn btn-warning">Edit</a></li>
+
            <li><a href="{{route('welcome')}}" class="btn btn-success">Home</a></li>
  
          </ul>
        </nav><!-- .nav-menu -->
+       
        <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
  
      </div>
